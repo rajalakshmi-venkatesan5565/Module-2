@@ -11,9 +11,19 @@ To write a Python program that defines a function which accepts two values and r
 5. Call the `result` function with the user-provided values.
 
 ## 🧾 Program
+```
+def result(a, b):
+    print("The result of", a, "%", b, "is:", a % b)
 
-Add code Here
+
+a = int(input("Enter the first integer: "))
+b = int(input("Enter the second integer: "))
+
+
+result(a, b)
+```
 
 ## Output
+<img width="1040" height="379" alt="Screenshot 2025-10-18 230104" src="https://github.com/user-attachments/assets/b13262d8-5452-4b20-a164-b920c7242f16" />
 
 ## Result
